@@ -1,0 +1,763 @@
+/* Base Style */
+
+body{
+    font-family: 'Newsreader', serif;
+    font-size: 18px;
+    color: gray;
+    position: relative;
+    }
+
+  #sfondo{
+      background:url(./sfondo/tools-for-motivation-KvTOwKoji7g-unsplash.jpg)no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        background-attachment:fixed;
+    }
+    #video-back{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+margin-top:670px;
+height: auto;
+z-index: 0;
+    }
+
+*{margin: 0;padding: 0;}
+
+.btn{
+    width: 130px;
+    height: 80px;
+    border-radius: 12px;
+    background-color:rgb(80, 78, 78);
+    color: blanchedalmond;
+    font-size: 20px;
+}
+.pointer {cursor: pointer;}
+h1{
+    font-size: 60px;
+}
+
+a{ text-decoration: none; color: #000;}
+
+
+
+li{list-style: none;}
+
+.eccezione{
+    display: none;
+}
+
+
+
+.inpagination{ margin: 80px 300px 100px 300px;}
+
+
+
+
+.opacizzante{ opacity: 0.2;}
+
+.rottura{
+    width: 100%;
+    height: auto;
+}
+span{
+    color: rgb(250,133,56);
+    font-weight: bold;
+    font-size: 33px;
+}
+
+@media(max-width:768px){
+.inpagination{
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 14px;
+}
+}
+@media(max-width:376px){
+    h1{
+        font-size: 25px;
+    }
+    
+}
+
+
+/* Navbar*/
+
+.cover{
+    height: 800px;
+    background:url(./immagini/simon-abrams-k_T9Zj3SE8k-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar { 
+    display: flex;
+    width: 100%;
+    position: fixed;
+    font-size: 24px;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(245, 245, 245, 0.7);
+}
+
+
+.navbar li{
+    padding: 20px;
+    font-size: 30px;
+    /* background-color: rgb(245, 245, 245, 0.7); */
+}
+
+
+
+.navbar li:hover{
+    color: whitesmoke;
+    /* background-color:orange; */
+    /* font-family: 'Pacifico', cursive; */
+background-color: rgb(80, 182, 182);
+}
+.navbar li a:active{
+    color: rgb(196, 93, 93);
+}
+
+
+.nome__intestazione{
+    text-align: center;
+    padding-top: 400px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.nome__intestazione h1{
+    display: inline-block;
+    color: black;
+    font-size: 100px;
+}
+.nome__intestazione p{
+    color: black;
+    font-size: 30px;
+}
+.menu{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
+#home i{
+    font-size: 40px;
+}
+
+
+@media(max-width:768px){
+    .menu{
+        display: block;
+        padding-bottom: 50px;
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+        color: #555;
+    }
+    .navbar{
+        top: 0;  
+    right: -100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 150px;
+background-image:url(./immagini/jm-lova-Mn6WChN0Q1o-unsplash.jpg) ;
+background-size: cover;
+position: absolute;
+    }
+    .navbar--open{
+        right:0%;
+    }
+    
+    .navbar a{
+font-size: 50px;
+color: whitesmoke;
+    }
+    .navbar a:active{
+        color: teal;
+
+    }
+    .hamburger{
+        display: block;
+        top: 0;
+        right:0;
+        z-index: 3;
+        position:absolute;
+        margin-top: 50px;
+        margin-right: 50px;
+
+    }
+    .hamburger h1{
+        color: black;
+font-size: 80px;
+
+    }
+   
+
+    
+    .nome__intestazione{
+        padding-top: 500px;
+    }
+    
+    .nome__intestazione p{
+        font-size: 50px;
+        padding-bottom: 160px;
+    }
+    
+    .cover{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media(max-width:376px){
+    .nome__intestazione{
+        padding-top: 20px;
+     }
+     .nome__intestazione h1{
+        padding-top: 100px;
+        font-size: 35px;
+    }
+    .nome__intestazione p{
+padding-bottom:100px;
+font-size: 20px;
+    }
+}
+/*Section 1*/
+
+.history p{
+    font-size: 28px;
+    z-index: 1;
+    position: relative;
+    background-color:rgb(190, 187, 187);
+    border-radius: 13px;
+    padding: 10px;
+    border: 4px solid orangered;
+}
+.history{height: auto; z-index: 0;
+position: relative;
+color: black;
+
+}
+
+#seneca{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;;
+}
+#seneca p{
+        border: 4px solid orangered;
+
+}
+
+
+
+.history h1{
+    padding-top:11px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.history__descrition {
+    padding-top: 45px;
+}
+
+
+
+/* SECTION 2 */
+
+.person{
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+}
+
+
+.person__sx{
+    flex: 1;
+}
+.person__sx p{
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+}
+.person__sx img{
+     opacity: 0.8;
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    margin-left: 70px;
+}
+.person__sx img:hover{
+    opacity: 1;
+    margin-right: 10px;
+}
+.person__dx{
+    flex: 1;
+    padding-left: 150px;
+    position: relative;
+
+}
+.person__dx p{
+    font-size: 28px;
+    color: black;
+    background-color:rgb(190, 187, 187);
+    border-radius: 13px;
+    margin-top: 130px;
+    width: 90%;
+    padding: 12px;
+    border: 4px solid orangered;
+
+}
+@media(max-width:768px){
+.person{
+    display: inline-block;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.person__sx img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    opacity: 1;
+}
+.person__dx {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+
+}
+.person__dx p{
+    margin: 0;
+    width: 95%;
+    margin-top:20px;
+}
+}
+/* non fuole funzionare */
+@media(max-width:376px){
+    .history h1{
+        font-size: 35px;
+    }
+    .history p{
+        font-size: 20px;
+    }
+    .persona__dx{
+        width: 90%;
+    }
+}
+
+
+/* Skills */
+.skills{
+    position: relative;
+    margin: 100px 300px 5px 300px;
+    color: black;
+}
+
+
+
+
+.passamiSopraScuro:hover{
+    background-color:rgb(101, 97, 97);
+    border: 5px solid greenyellow;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+}
+.passamiSopraChiaro:hover{
+    background-color:rgb(223, 219, 219);
+    border: 5px solid greenyellow;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+
+}
+.passamiSopraIntraprendenza:hover{
+    background-color:greenyellow;
+    border: 5px solid greenyellow;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+    transform: scale(1.2);
+
+}
+.skills__intestazione{padding-bottom: 20px; color: #000; font-size: 30px;}
+.skills__box{padding-bottom: 4px;}
+.skills__box P{ padding-top: 10px;}
+.bar{display: flex;}
+.skills-dark__bar{width: 80%;background-color:rgb(133, 130, 130) ;text-align: center;     border: 4px solid greenyellow;
+}
+.skills-dark__bar p{padding: 15px; }
+.skills-light__bar{width: 20%;background-color:rgb(192, 191, 191);text-align: center;border: 4px solid greenyellow;
+}
+.skills-light__bar p{padding: 15px;}
+
+.skills-dark__bar__css p{padding: 15px;}
+.skills-dark__bar__css{width: 70%;background-color: rgb(133, 130, 130);text-align: center;border: 4px solid greenyellow;
+}
+.skills-light__bar__css{width: 30%;background-color:rgb(192, 191, 191);text-align: center;border: 4px solid greenyellow;
+}
+.skills-light__bar__css p{padding: 15px;}
+
+.skills-dark__bar__javascript p{padding: 15px;}
+.skills-dark__bar__javascript{width: 65%;background-color:rgb(133, 130, 130);text-align: center;    border: 4px solid greenyellow;
+}
+.skills-light__bar__javascript{width: 35%;background-color:rgb(192, 191, 191);text-align: center;    border: 4px solid greenyellow;
+}
+.skills-light__bar__javascript p{padding: 15px;}
+
+.skills-dark__bar__angularjs p{padding: 15px;}
+.skills-dark__bar__angularjs{width: 55%;background-color: rgb(133, 130, 130);text-align: center;border: 4px solid greenyellow;
+}
+.skills-light__bar__angularjs{width: 45%;background-color:rgb(192, 191, 191);text-align: center;border: 4px solid greenyellow;
+}
+.skills-light__bar__angularjs p{padding: 15px;}
+
+.skills-dark__bar__wordpress p{padding: 15px;}
+.skills-dark__bar__wordpress{width: 40%;background-color: rgb(133, 130, 130);text-align: center;border: 4px solid greenyellow;
+}
+.skills-light__bar__wordpress{width: 60%;background-color:rgb(192, 191, 191);text-align: center;border: 4px solid greenyellow;
+}
+.skills-light__bar__wordpress p{padding: 15px;}
+
+
+.skills-dark__bar__intraprendenza p{padding: 15px; font-weight: bold;}
+.skills-dark__bar__intraprendenza{width: 100%;background-color: orangered;text-align: center;border: 4px solid greenyellow;
+}
+.skills__btn{
+    margin-top: 30px;
+}
+.conoscenzeBtn{
+    transition: all 1.4s ease-in-out;
+}
+.conoscenzeBtn:hover{
+    transform: scale(1.2);
+    color: orangered;
+}
+@media(max-width:768px){
+    .skills{
+        margin: 30px 0 0 0 ;
+    }
+ #tendina{
+     margin-top:20px;
+     border:4px solid green;
+     margin:0;
+     margin-top: 5px;
+     width: 500px;
+ }
+    
+}
+
+/* Tendina */
+.skills__box p{
+    color: black;
+}
+
+.tendina{
+ position: relative;
+    border: 1px solid #000;
+    color:white;
+    background: url(./immagini/khalil-musa-WzFBUXQChFU-unsplash.jpg)no-repeat center center;
+background-size: cover;
+margin-left: 300px;
+margin-top: 15px;
+border-radius: 5px;
+display: none;
+width: 500px;
+}
+.tendina h2{
+    font-size: 45px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+color: black;
+
+}
+.tendina p{
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+/* IMMAGINE PRIMA DEI MIEI PROGETTI */
+
+    .progetti__immagine{
+        height: 200px;
+       background-image: url(./immagini/aleksandr-ledogorov-G-JJy-Yv_dA-unsplash.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat:no-repeat ;
+       opacity: 0.9;
+       margin-top: 12px;
+    }
+    
+
+    .progetti__immagine h1{
+        text-align: center;
+        padding-top:85px;
+        color: orangered;
+        font-size: 70px;
+    }
+    
+
+
+
+
+ /* I MIEI PROGETTI */
+.project__intestazione h1{
+color: black;
+margin: 80px 300px 0px 300px;
+    }
+
+ .project{
+   display: flex;
+   margin: 14px 300px 80px 300px;
+   flex-flow: row wrap;
+    }
+    
+    .project__box img{
+        width: 550px;
+        height: auto;
+        padding: 4px;
+    }
+    
+   .project__box p{
+       font-size: 49px;
+   }
+         
+   @media(max-width:768px){
+
+.project{
+    margin: 0;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.project__intestazione h1{
+    margin: 30px 0 20px 0 ;
+}
+.project__box img{
+width: 100%;
+}
+.dog__no{
+    display: none;
+}
+   }
+
+
+
+
+
+/* I MIEI RECAPITI */
+#contatti{
+    display: flex;
+    position: relative;
+    color: black;
+    font-size: 30px;
+flex-wrap: wrap;
+}
+.contatti__sx{
+    flex: 1;
+   height: auto;
+}
+.contatti__sx img{
+    width: 100%;
+    height: auto;
+}
+.contatti__dx{
+    flex: 1;
+    background-color: rgba(235,182,77,255);
+  padding-top: 120px;
+    height: 354px;
+    
+}
+
+.contatti__dx h1{
+    padding-bottom: 16px;
+    text-align: center;
+
+}
+.contatti__dx li{
+    padding-bottom: 10px;
+    text-align: center;
+}
+#icone__social i:hover{
+    color: orangered;
+}
+@media(max-width:768px){
+    #contatti{
+        margin: 0;
+        display: inline-block;
+        flex-wrap: wrap;
+        
+    }
+    .contatti__dx{
+        padding-top: 12px;
+    }
+    
+}
+@media(max-width:375px){
+
+}
+
+/* Sezione immagine contatti */
+.dati__immagine{
+    background: url(./immagini/diego-ph-fIq0tET6llw-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+ }
+ .dati__immagine h1{
+     text-align: center;
+     color: orangered;
+     font-weight: bolder;
+     padding: 60px;
+ }
+ 
+ 
+
+/* Form */
+
+.dati{
+    border: 1px solid #000;
+    border-radius: 6px;
+    background-color:rgba(235,182,77,255);
+    height: auto;
+position: relative;
+margin: 80px 500px 100px 500px;
+color: black;
+}
+
+
+.dati__input{
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: 30px;
+}
+input{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+}
+input:hover{
+    background-color: lightgreen;
+}
+#textArea{
+    height: 80px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 12px;
+}
+#textArea:hover{
+background-color: lightgreen;
+}
+.btn__form{
+    width: 300px;
+    background-color: orangered;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+.btn--sposto{
+    text-align: center;
+    padding: 28px;
+   
+}
+.button--move{
+    animation: rotate_effect 5s infinite ease-in-out;
+}
+@keyframes rotate_effect {
+    0% {transform: rotate(0deg);}
+    200% {transform: rotate(0deg);}
+    40% {transform: rotate(10deg);}
+    60% {transform: rotate(-10deg);}
+    80% {transform: rotate(0deg);}
+    100% {transform: rotate(0deg);}
+
+}
+
+@media(max-width:768px){
+    .dati{
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+/* Footer */
+.foot{
+    width:100%;
+    background-color: gray;
+height: 150px;
+position: relative;
+  height: auto;
+    text-align: center;
+}
+
+
+#foot__btn{
+    margin-top: 12px;
+    margin-bottom: 20px;
+    width:300px;
+}
+#foot__btn:hover{
+    background-color: orangered;
+    transition: all 1.4s ease-in-out;
+
+}
+.foot__container a{
+margin: 5px;
+font-size: 60px;
+}
+.foot__container a:hover{
+    color: orangered;
+}
+
+.foot__container p{
+    margin-top: 10px;
+    color:black;
+    font-size: 60px;
+}
+
+@media(max-width:768px){
+    .foot__container{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+*,
+*:before
+*:after{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
